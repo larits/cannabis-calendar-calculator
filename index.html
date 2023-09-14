@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cannabis Calendar Calculator</title>
+    <!-- Link to the CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cannabis Calendar Calculator</h1>
+    </header>
+
+    <main>
+        <!-- Input Form for User Input -->
+        <section id="calculator-form">
+            <h2>Calculate Important Dates</h2>
+            <form id="calendar-form">
+                <label for="strain">Strain:</label>
+                <input type="text" id="strain" name="strain" required>
+
+                <label for="planting-date">Planting Date:</label>
+                <input type="date" id="planting-date" name="planting-date" required>
+
+                <label>Growth Type:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="growth-type" value="autoflowering" required> Autoflowering</label>
+                    <label><input type="radio" name="growth-type" value="feminized" required> Feminized</label>
+                   <label><input type="radio" name="growth-type" value="regular" required> Regular</label>
+               <label><input type="radio" name="growth-type" value="cbd" required> CBD</label> 
+              </div>
+
+                <button type="submit">Calculate</button>
+            </form>
+        </section>
+
+        <!-- Display Results or Calendar -->
+        <section id="calendar-results">
+            <!-- Calendar results and date of harvest will be displayed here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Cannabis Calendar Calculator</p>
+    </footer>
+
+    <!-- Include the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
