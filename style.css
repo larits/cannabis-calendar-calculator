@@ -1,0 +1,122 @@
+
+body, h1, h2, form, input, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+input {
+    outline-style: solid;
+    margin: 10px;
+  padding: 10px;
+    border: none;
+  
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+header {
+    background-color: #4e1c30;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#calculator-form {
+    margin-bottom: 20px;
+    margin-right: 00px;
+  outline-style: solid;
+   outline-width: 2px;
+  outline-offset: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.radio-group label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    outline: none; 
+}
+
+button {
+    background-color: #4e1c30;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#calendar-results {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}
+
+#calendar-results div {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  background-color: #71A458;
+  color: #FFFFFF;
+}
+
+#calendar-results div:last-child {
+    border-bottom: none;
+   background-color: #1E0918;
+  color: #FFFFFF;
+}
+
+
+#calendar-results div strong {
+  background-color: #FFFFFF;
+  color: #1E0918;
+   text-decoration: underline;
+    padding: 2px 5px;
+    border-radius: 4px;
+    
+}
+
+
+#calendar-results div span {
+    color: #555;
+    margin-top: 5px;
+}
